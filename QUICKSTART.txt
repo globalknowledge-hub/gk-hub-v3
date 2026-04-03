@@ -1,0 +1,109 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                  GLOBAL EDUCATION HUB - QUICK START              ║
+╚══════════════════════════════════════════════════════════════════╝
+
+📦 WHAT'S INCLUDED:
+  ✓ React 19 + TypeScript + Vite
+  ✓ Tailwind CSS 4.1 (Apple-inspired design)
+  ✓ Framer Motion animations
+  ✓ PWA support (installable on mobile)
+  ✓ Bilingual (English/Assamese)
+  ✓ Reader mode (E-ink optimized)
+  ✓ 100% responsive (mobile/tablet/desktop)
+  ✓ Service worker for offline support
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚡ FASTEST DEPLOYMENT (3 minutes):
+
+1. Install dependencies:
+   $ npm install
+
+2. Deploy to Vercel:
+   $ npx vercel
+
+3. Done! Share your link.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💻 LOCAL DEVELOPMENT:
+
+  $ npm install        # Install dependencies
+  $ npm run dev        # Start dev server → localhost:3000
+  $ npm run build      # Build for production
+  $ npm run preview    # Preview production build
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📱 PWA INSTALLATION (After deployment):
+
+  iOS:     Safari → Share → Add to Home Screen
+  Android: Chrome → Menu → Install App
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎨 KEY FEATURES:
+
+  • Hero carousel with 3 regional sections
+  • News filtering (All/Assam/India/Global)
+  • Scholarship cards with urgent badges
+  • Exam tracker with countdown timers
+  • Top institutes directory
+  • Language toggle (English ↔ অসমীয়া)
+  • Reader mode toggle
+  • Smooth animations throughout
+  • No broken links or layout issues
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📂 FILE STRUCTURE:
+
+  src/App.tsx       → All components + mock data
+  src/index.css     → Responsive styles + reader mode
+  public/manifest.json → PWA config
+  public/sw.js      → Service worker (offline support)
+  vercel.json       → Deployment config
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 CUSTOMIZATION:
+
+  Colors:  src/index.css (line 82-86)
+  Data:    src/App.tsx → MOCK_DATA object
+  Content: src/App.tsx → Edit sections directly
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 DEPLOYMENT OPTIONS:
+
+  1. Vercel (recommended):
+     $ npx vercel
+
+  2. Netlify:
+     $ npm run build
+     → Drag 'dist' folder to netlify.com
+
+  3. GitHub Pages:
+     → Push to GitHub
+     → Enable Pages in repo settings
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ PRE-LAUNCH CHECKLIST:
+
+  □ npm install completed
+  □ npm run dev works locally
+  □ Test on mobile browser
+  □ Try language toggle
+  □ Test reader mode
+  □ Check news filtering
+  □ Verify responsive layout
+  □ Deploy to Vercel
+  □ Install as PWA
+  □ Share link!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📖 FULL DOCS: See DEPLOYMENT.md for detailed guide
+
+Built with ❤️ by Javed Bhai | Horaizon Tech
